@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CalculationDLL">
+      <HintPath>..\CalculationDLL\bin\Debug\netcoreapp2.1\CalculationDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="MathTool">
+      <HintPath>..\..\..\..\Desktop\MathTool.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
